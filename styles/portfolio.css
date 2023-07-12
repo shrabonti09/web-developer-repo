@@ -2,12 +2,27 @@
 
 nav {
     display: flex;
+    align-items: center;
+    justify-content: space-between;
 
 }
 
 /* common shared styles */
 body {
     font-family: 'Open Sans', sans-serif;
+}
+
+.button-primary {
+    border-radius: 5px;
+    background: #FD6E0A;
+    font-size: 20px;
+    font-weight: 700;
+    color: #FFF;
+    border: 0;
+    padding: 15px 35px;
+
+
+
 }
 
 .nav-title {
@@ -18,18 +33,23 @@ body {
     line-height: normal;
 
 }
-.text-primary{
+
+.text-primary {
     color: #FD6E0A;
 }
-nav > ul{
+
+nav>ul {
     display: flex;
-    
+    align-items: center;
+
 }
-nav li{
+
+nav li {
     list-style: none;
     margin-right: 50px;
 }
-nav a{
+
+nav a {
     text-decoration: none;
-    color:#474747;
+    color: #474747;
 }
