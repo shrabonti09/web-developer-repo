@@ -4,9 +4,22 @@ nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin: 0 200px;
+
 
 }
-
+.header{
+    background-color: #FFF8F3;
+    ;
+}
+.banner{
+    padding: 30px 30px 30px 150px;
+    display: flex;
+    align-items: center;
+}
+.banner .profile-picture{
+    width: 500px;
+}
 /* common shared styles */
 body {
     font-family: 'Open Sans', sans-serif;
